@@ -1,0 +1,50 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+body{
+    background-image: url('../image/hero.jpeg');
+}
+/*barra de navegación*/
+.cabecera{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16357799;
+    margin-bottom: 50px;
+}
+    .titulo{
+        font-size: 22px;
+    }
+
+    /*imagen logo*/
+    .imagen-logo {
+        width: 200px;
+    }
+    /*opciens*/
+    .cabecera-opciones{
+        display: flex;
+    }
+    button {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(6, 66, 101);
+        color: #ffff;
+      }
+      #registro-btn, #admin-btn{
+        color: #ffff;
+      }
+    button:hover{
+        background-color: rgb(3, 131, 131);
+    }
+
+    #contenedor-medio{
+        background-color: #135d70b1;
+    }

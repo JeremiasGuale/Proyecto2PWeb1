@@ -1,0 +1,151 @@
+/* Estilos generales */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* Cabecera */
+.cabecera {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16357799;
+}
+
+.cabecera-logo {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-logo {
+    width: 200px;
+}
+
+.titulo {
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+}
+.volver-btn{
+    color: #ffffff;
+}
+.cabecera-opciones {
+    display: flex;
+}
+
+.cabecera-opciones-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera-opciones-lista li {
+    margin-right: 10px;
+}
+
+.volver-btn {
+    background-color: #005a8e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.volver-btn:hover {
+    background-color: #003366;
+    color: #0000;
+}
+#volver{
+    color:#ffffff;
+}
+/* Contenido principal */
+.medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../image/referencia1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo2{
+    width: 100px;
+    height: auto;  
+    border-radius: 200px;
+}
+.registro {
+    background-color: rgba(16, 29, 125, 0.59);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    border-radius: 200px;
+}
+
+.registro h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ffffff45;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(97, 202, 202);
+    border-radius: 50px;
+}
+
+.input-group select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    padding-right: 30px;
+}
+
+.registro button {
+    background-color: #005a8e;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registro button:hover {
+    background-color: #003366;
+}
+
+/* Pie de página */
+.final {
+    background-color: #16357799;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

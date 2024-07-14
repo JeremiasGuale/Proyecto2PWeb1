@@ -1,0 +1,167 @@
+*{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: black;
+    font-size: 18px;
+}
+
+
+/*barra de navegación*/
+.cabecera{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16357799;
+}
+    .titulo{
+        font-size: 22px;
+    }
+
+    /*imagen logo*/
+    .imagen-logo {
+        width: 200px;
+    }
+    /*opciens*/
+    .cabecera-opciones{
+        display: flex;
+    }
+/*hero*/
+
+.principal {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../image/hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    
+  }
+  
+  .left-container {
+    width: 100%;
+    padding: 120px;
+    background-color: #005e097d;
+  }
+  .left-container h2{
+    color: #ffffff;
+  }
+  .right-container {
+    width: 100%;
+    padding: 120px;
+    background-color: #ff00004f;
+  }
+  .right-container h2{
+    color: #ffffff;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    /*section 2*/
+    
+    /* Estilos para la sección de gestión de vehículos */
+.vehicle-management {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.vehicle-management h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+.vehicle-management p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.vehicle-management h3 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.vehicle-management ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.vehicle-management ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.vehicle-management ul li:before {
+    content: "\2022"; /* Código Unicode del punto de viñeta */
+    position: absolute;
+    left: 0;
+    color: #003366;
+}
+
+.vehicle-management p:last-child {
+    font-style: italic;
+    color: #777;
+}
+
+/* Estilos para los botones de inicio de sesión */
+.user-btn,
+.admin-btn,
+.registro-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#registro-btn{
+    color: #ffffff;
+}
+.user-btn:hover,
+.admin-btn:hover,
+.registro-btn:hover {
+    background-color: #005a8e;
+    border-color: #005a8e;
+}
+
+
+.comentario{
+    margin-top: 100px;
+    text-align: center;
+}

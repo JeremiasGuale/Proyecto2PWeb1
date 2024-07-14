@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body
+{
+    background-color:  #125b66;
+}
+/*barra de navegación*/
+.cabecera{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16357799;
+}
+    .titulo{
+        font-size: 22px;
+    }
+
+    /*imagen logo*/
+    .imagen-logo {
+        width: 200px;
+    }
+    /*opciens*/
+    .cabecera-opciones{
+        display: flex;
+    }
+    button {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(6, 66, 101);
+        color: #ffff;
+      }
+      #registro-btn, #admin-btn{
+        color: #ffff;
+      }
+    button:hover{
+        background-color: rgb(3, 131, 131);
+    }
+
+/* medio */
+/* Estilos para el contenedor-medio */
+#contenedor-medio {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0090b4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#contenedor-medio h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #004080;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #004080;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Estilos para el perfil */
+#seccion-perfil p {
+    margin: 10px 0;
+}
+
+#registros-completos {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0090b4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#registros-completos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+#lista-registros-completos li {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
